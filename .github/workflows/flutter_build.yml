@@ -22,7 +22,7 @@ jobs:
           flutter-version: '3.24.0' # Uses a recent stable version
 
       - name: Generate platform folders
-        run: flutter create .
+        run: flutter create --project-name expense_dashboard .
 
       - name: Install dependencies
         run: flutter pub get
